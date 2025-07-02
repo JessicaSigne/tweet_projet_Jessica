@@ -54,11 +54,7 @@ TWEET_PROJECT_JESSICA/
 
 ### Exécution du script principal
 
-#### 1. Clonage du projet localement
-``` git clone <lien-du-repo>```
-cd TWEET_PROJECT_JESSICA
-
-#### 2. Exécution du script principal (avec Docker)
+#### Exécution du script principal (avec Docker)
 
 **Construction de l’image Docker :**
 ```docker build -t tweet_project_jessica .```
@@ -125,6 +121,8 @@ Jessica SIGNE
 Étudiante en Master 1 Data Science à YNOV Campus
 Contact : jessicasigne44@gmail.com
 ```
+#### Clonage du projet localement
+``` https://github.com/JessicaSigne/tweet_projet_Jessica/tree/master ```
 
 
 
