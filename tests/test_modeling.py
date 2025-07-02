@@ -59,10 +59,10 @@ def test_metriques_retournees(model,data_preprocessed):
     metriques = model.metriques_retournees(corpus, y)
 
     assert all(m in metriques for m in ["accuracy", "f1_score", "precision_score", "recall_score"]), "Certaines métriques sont manquantes"
-    assert 0 <= metriques["accuracy"] <= 1, "Accuracy non valide"
-    assert 0 <= metriques["f1_score"] <= 1, "F1-score non valide"
-    assert 0 <= metriques["precision_score"] <= 1, "precision_score non valide"
-    assert 0 <= metriques["recall_score"] <= 1, "recall_score non valide"
+    assert 0.75 <= metriques["accuracy"] <= 1, "Accuracy non valide"
+    assert 0.75 <= metriques["f1_score"] <= 1, "F1-score non valide"
+    assert 0.75 <= metriques["precision_score"] <= 1, "precision_score non valide"
+    assert 0.75 <= metriques["recall_score"] <= 1, "recall_score non valide"
 
 def test_comportement_text(model, data_preprocessed):
     corpus = data_preprocessed['text']
