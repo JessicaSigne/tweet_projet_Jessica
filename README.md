@@ -121,7 +121,7 @@ Jessica SIGNE
 Étudiante en Master 1 Data Science à YNOV Campus
 Contact : jessicasigne44@gmail.com
 ```
-#### Clonage du projet localement
+#### Lien vers le git
 ``` https://github.com/JessicaSigne/tweet_projet_Jessica/tree/master ```
 
 
