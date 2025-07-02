@@ -103,7 +103,7 @@ cd TWEET_PROJECT_JESSICA
 ## Technologies utilisées
 
 ```
-Python 3.11
+Python 3.11 (version de thon utilisée)
 
 Scikit-learn (classification des tweets)
 
